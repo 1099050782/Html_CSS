@@ -1,0 +1,128 @@
+/* 列表专有的css */
+.nav {
+    /* 清除溢出部分 */
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+/* 给最后一个小li添加一个小图标 */
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_bd ul li {
+    /* 不能超出289像素 */
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+    width: 289px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li h4 {
+    margin: 10px 13px;
+    font-size: 13px;
+    color:#808380;
+    /* 文字不加粗 */
+    font-weight: 400;
+}
+.sk_bd ul li .miaosha {
+    width: 2890px;
+    height: 30px;
+}
+.miaosha .xianjia {
+    margin: 5px 13px;
+    width: 76px;
+    height: 24px;
+    font-size: 23px;
+    color: #BE2717;
+    font-weight: 700;
+}
+.miaosha .origin {
+    font-size: 12px;
+    color: gray;
+    /* 给文字增加一条删除线 */
+    text-decoration: line-through;
+}
+.shuju {
+    width: 289px;
+    height: 30px;
+}
+.shuju .s1 {
+    float: left;
+    height: 30px;
+    width: 65px;
+    font-size: 8px;
+    color:#808380;
+    /* 文字不加粗 */
+    font-weight: 400;
+    padding: 6px; 
+    margin-left: 5px;
+}
+.shuju .jindu {
+    float: left;
+    width: 130px;
+    height: 30px;
+    margin: 0 auto;
+}
+.shuju .bar {
+    width: 130px;
+    height: 15px;
+    margin-top: 7px;
+    border: 1px solid red;
+    /* 增加圆角边框 */
+    border-radius: 7px;
+    padding: 1px;
+}
+.shuju .bar_in {
+    width: 90%;
+    height: 100%;
+    background-color: red;
+}
+.shuju .s2 {
+    float: left;
+    height: 30px;
+    width: 70px;
+    font-size: 8px;
+    color:#808380;
+    /* 文字不加粗 */
+    font-weight: 400;
+    padding: 6px;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
