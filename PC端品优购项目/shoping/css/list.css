@@ -61,13 +61,13 @@
     font-weight: 400;
 }
 .sk_bd ul li .miaosha {
-    width: 2890px;
+    width: 289px;
     height: 30px;
 }
 .miaosha .xianjia {
     margin: 5px 13px;
     width: 76px;
-    height: 24px;
+    height: 25px;
     font-size: 23px;
     color: #BE2717;
     font-weight: 700;
@@ -80,7 +80,7 @@
 }
 .shuju {
     width: 289px;
-    height: 30px;
+    height: 40px;
 }
 .shuju .s1 {
     float: left;
@@ -90,14 +90,14 @@
     color:#808380;
     /* 文字不加粗 */
     font-weight: 400;
-    padding: 6px; 
-    margin-left: 5px;
+    padding: 7px; 
+    margin: 5px 6px;
 }
 .shuju .jindu {
     float: left;
     width: 130px;
     height: 30px;
-    margin: 0 auto;
+    margin: 5px 0;
 }
 .shuju .bar {
     width: 130px;
@@ -121,7 +121,15 @@
     color:#808380;
     /* 文字不加粗 */
     font-weight: 400;
-    padding: 6px;
+    padding: 7px;
+    margin: 5px 6px;
+}
+.qianggou {
+    width: 289px;
+    height: 43px;
+    background-color: #BE2717;
+    font: 14px;
+    color: #fff;
 }
 .sk_bd ul li:hover {
     border: 1px solid #c81523;
