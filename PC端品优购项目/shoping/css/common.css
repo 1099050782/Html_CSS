@@ -166,6 +166,7 @@
     height: 31px;
     line-height: 31px;
     margin-left: 2px;
+    padding-left: 10px;
 }
 .dropdown .dd ul li:hover {
     background-color: #fff;
