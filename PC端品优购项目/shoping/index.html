@@ -18,8 +18,12 @@
     <link rel="stylesheet" href="css/base.css">
     <!-- 引入我们公共样式文件 -->
     <link rel="stylesheet" href="css/common.css">
-    <!-- 引入我们index.css文件 -->
+    <!-- 引入我们首页index.css文件 -->
     <link rel="stylesheet" href="css/index.css">
+    <!-- 这个animate.js 必须写到 index.js的上面引入 -->
+    <script src="js/animate.js"></script>
+    <!-- 引入我们首页的js文件-->
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -131,11 +135,31 @@
     <div class="w">
         <div class="main">
             <div class="focus">
+                <!--左侧按钮-->
+                <a href="javascript:;" class="arrow-l">
+                    &lt;
+                </a>
+                 <!--右侧按钮-->
+                <a href="javascript:;" class="arrow-r"> </a>
+                <!--核心的滚动区域-->
                 <ul>
                     <li>
-                        <img src="upload/focus1.png" alt="">
+                        <a href="#"><img src="upload/focus.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="upload/focus1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="upload/focus2.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="upload/focus3.jpg" alt=""></a>
                     </li>
                 </ul>
+                <!--小圆圈-->
+                <ol class="circle">
+
+                </ol>
             </div>
             <div class="newsflash">
                 <div class="news">
